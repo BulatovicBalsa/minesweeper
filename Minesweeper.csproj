@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\closed.png" />
+    <None Remove="img\closed.svg" />
+    <None Remove="img\face_active.png" />
+    <None Remove="img\face_active.svg" />
+    <None Remove="img\face_lose.svg" />
+    <None Remove="img\face_pressed.svg" />
+    <None Remove="img\face_unpressed.png" />
+    <None Remove="img\face_unpressed.svg" />
+    <None Remove="img\flag.png" />
+    <None Remove="img\mine.png" />
+    <None Remove="img\mine.svg" />
+    <None Remove="img\mine_red.png" />
+    <None Remove="img\mine_red.svg" />
+    <None Remove="img\pressed.png" />
+    <None Remove="img\pressed.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\closed.png" />
+    <Resource Include="img\face_active.png" />
+    <Resource Include="img\face_unpressed.png" />
+    <Resource Include="img\flag.png" />
+    <Resource Include="img\mine.png" />
+    <Resource Include="img\mine_red.png" />
+    <Resource Include="img\pressed.png" />
+  </ItemGroup>
+
+</Project>
